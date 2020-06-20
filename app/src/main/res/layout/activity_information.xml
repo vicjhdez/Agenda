@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Information"
+    tools:ignore="ExtraText">
+
+    <ImageView
+        android:id="@+id/image2"
+        android:layout_width="189dp"
+        android:layout_height="243dp"
+        android:layout_constraintEnd_toEndOf="parent"
+        android:layout_constraintStart_toStartOf="parent"
+        android:layout_constraintTop_toTopOf="parent"
+        android:srcCompat="@drawable/ic_launcher_foreground"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="104dp"
+        tools:layout_editor_absoluteY="153dp" />
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="293dp"
+        android:layout_height="171dp"
+        android:layout_constraintTop_toBottomOf="@+id/image2"
+        android:layout_constraintEnd_toEndOf="parent"
+        android:layout_constraintStart_toStartOf="parent"
+        android:text="textview"
+        android:textSize="20sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="59dp"
+        tools:layout_editor_absoluteY="225dp" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="236dp"
+        android:layout_height="63dp"
+        android:layout_constraintHorizontal_bias="0.496"
+        android:layout_constraintTop_toBottomOf="@+id/image2"
+
+        android:layout_constraintEnd_toEndOf="parent"
+        android:layout_constraintStart_toStartOf="parent"
+        android:text="textview"
+        android:textSize="30sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="68dp"
+        tools:layout_editor_absoluteY="97dp" />
+
+    <Button
+        android:id="@+id/map"
+        android:layout_width="109dp"
+        android:layout_height="57dp"
+        android:layout_constraintHorizontal_bias="0.251"
+        android:layout_constraintTop_toBottomOf="@+id/text1"
+        android:layout_constraintBottom_toBottomOf="parent"
+        android:layout_constraintEnd_toEndOf="parent"
+        android:layout_constraintStart_toStartOf="parent"
+        android:onClick="map"
+        android:text="map"
+        tools:layout_editor_absoluteX="222dp"
+        tools:layout_editor_absoluteY="528dp" />
+
+    <Button
+        android:id="@+id/back2"
+        android:layout_width="126dp"
+        android:layout_height="52dp"
+
+        android:layout_constraintHorizontal_bias="0.567"
+        android:layout_constraintVertical_bias="0.477"
+        android:layout_constraintTop_toBottomOf="@+id/text1"
+        android:layout_constraintBottom_toBottomOf="parent"
+        android:layout_constraintStart_toEndOf="@+id/map"
+        android:layout_constraintEnd_toEndOf="parent"
+        android:onClick="click2"
+        android:text="back"
+        tools:ignore="OnClick"
+        tools:layout_editor_absoluteX="59dp"
+        tools:layout_editor_absoluteY="533dp" />
+
+    <TextView
+        android:id="@+id/addb"
+        android:layout_width="264dp"
+        android:layout_height="41dp"
+        android:layout_constraintHorizontal_bias="0.517"
+        android:layout_constraintVertical_bias="0.181"
+        android:layout_constraintTop_toBottomOf="@+id/text1"
+        android:layout_constraintBottom_toBottomOf="parent"
+        android:layout_constraintEnd_toEndOf="parent"
+        android:layout_constraintStart_toStartOf="parent"
+        android:gravity="center"
+        android:text="Add Birthday"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="88dp"
+        tools:layout_editor_absoluteY="442dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
